@@ -1,0 +1,81 @@
+/* website font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+/* common style  */
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+}
+p {
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* carousel */
+.panda-bg-primary{
+  background: #FEEAE9;;
+}
+.carousel-item h2{
+  color: #1F1F1F;
+  font-size: 56px;
+}
+.carousel-item p{
+color: #4E4E4E;
+  font-size: 16px;
+}
+.carousel-product-price{
+  color: #FF136F;
+  font-size: 41px;
+}
+.panda-btn{
+  background:linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+  color: #fff;
+  padding: 14px 20px;
+  margin: 8px 0px;
+
+}
+/* Categories */
+.section-title{
+  color: #1F1F1F;
+  font-size: 36px;
+}
+
+.categories h2{
+  font-size: 36px;
+}
+
+.category-one{
+  background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+
+}
+.category-two{
+  background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+
+}
+.category-three{
+  background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+
+}
+
+/* shoes */
+.panda-bg-secondary{
+  background: #F4F4F4;
+}
+.see-all{
+  color: #FF9D00;
+}
+
+/* subscribe-section */
+.subscribe-section{
+  height: 455px;
+}
